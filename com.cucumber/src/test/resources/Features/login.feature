@@ -13,7 +13,6 @@ Feature: Login with correct email and password.
   Then Click delete account button
   And Verify account deleted
   
-  
   Scenario: Register user with existing mails
   Given Browser is open
   And Navigate to url
@@ -47,7 +46,7 @@ Feature: Login with correct email and password.
   Then Email is entered and arrow button is clicked
   And Verify the message
   
-@smoke
+   @smoke
   Scenario: Place order
   Given Browser is open
   And Navigate to url
@@ -95,7 +94,6 @@ Feature: Login with correct email and password.
   And Click Login button and submit login details
   And Again go to Cart page
   And  Verify that those products are visible in cart after login as well
-  
   
   Scenario: Add to cart from recommended items
   Given Browser is open

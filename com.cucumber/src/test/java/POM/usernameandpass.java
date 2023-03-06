@@ -52,7 +52,7 @@ public class usernameandpass {
 	}
 
 	public void correctEmail() {
-		email.sendKeys("sg@gmail.com");
+		email.sendKeys("SG@gmail.com");
 
 	}
 

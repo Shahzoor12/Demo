@@ -40,7 +40,7 @@ public class login {
 	@Given("Browser is open")
 	public void browser_is_open() {
 
-		System.setProperty("webdriver.chrome.driver","C:/Windows/System32/config/systemprofile/eclipse-workspace/com.Automatiom/src/test/resources//driver/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:/Users/SHAGAFOO/git/repository/com.cucumber/src/test/resources/driver/chromedriver.exe");
 		driver=new ChromeDriver();
 		log=new usernameandpass(driver);
 		user=new registerUser(driver);
